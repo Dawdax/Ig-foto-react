@@ -2,3 +2,65 @@
 @tailwind components;
 @tailwind utilities;
  
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%; /* =10px */
+  }
+  
+
+.like-off{
+    background-image: url(../public/images/like-off.png);
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+ }
+ .like-on{
+  background-image: url(../public/images/like-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.save-off{
+  background-image: url(../public/images/guardar-instagram-off.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.save-on{
+  background-image: url(../public/images/guardar-instagram-on.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.comentario{
+  background-image: url(../public/images/comentar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.compartir{
+  background-image: url(../public/images/send.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
